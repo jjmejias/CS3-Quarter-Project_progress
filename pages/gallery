@@ -1,1 +1,45 @@
 <!Doctype html>
+
+
+	<head>
+		<title> Knowledge Green | Aboutpage </title>
+		 <style> 
+		 	 .indent {
+		text-indent: 30px;
+}
+	a {
+		float:right;
+		margin: 50px;
+		color: white;
+		size: 900;
+}
+
+	.hc {
+		float: center;
+		background: white;
+		max-width: 300px;
+}
+	.goof {
+		max-width: 640px;
+		margin: auto;
+		background: white;
+		padding: 10px;
+		style="font-Open Sans";
+}
+	.doof {
+		float: left;
+		max-width: 640px;
+		margin: auto;
+		background: white;
+		padding: 10px;
+		style="font-Open Sans";
+}
+		 
+		 </style>
+	</head>
+    <header style="background: url('backgrond.jpg')">
+	    <img src="Logo.png" alt = "logo" width="120"> 
+		 <a href = "https://www.google.com";target="_blank">contact</a>
+		 <a href = "Quater Project CS3_Aboutpage.html">about</a>
+		 <a href = "file:///C:/Users/Rose%20Jean/Desktop/Jyjy%20F2F%20Grade%209/Com%20Sci/NEW/index.html";target="_blank">home</a>
+    </header>
