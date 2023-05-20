@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BIG Data</title>
+    <script>
+	function view(){
+	alert("Please view the website on 90% scale, Thank You.");
+	}
+  </script>
+  <style>
+    *:before, *:after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+	  background-image: url('Body-Picture.png');
+	  background-size: cover;
+	  background-repeat: repeat;
+	  height: 100vh;
+	}
+    header {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 50px;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      background-color: #444;
+    }
+
+    main {
+	  height: 700px;
+      margin: 20px auto;
+      padding: 20px;
+	  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
+	
+    h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+	  color: white;
+    }
+	
+	h3 {
+	  color: white;
+	}
+
+    ul {
+      margin-bottom: 15px;
+    }
+
+    form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+	
+	 #buttonA {
+	position: relative;
+    top:50%;
+	width: 50vh;
+	height: 30vh;
+	opacity: 0.75;
+	float: left;
+	margin: 0 20px;
+	transform: translateY(75%);
+    }
+	.discriptionA {
+	position: absolute;
+	translate: 80px 430px; 
+	align-items: center;
+	justify-items: center;
+	color: #A8BEA7;
+	}
+	#buttonC {
+	position: relative;
+    top:50%;
+	width: 50vh;
+	height: 30vh;
+	opacity: 0.75;
+	float: right;
+	margin: 0 20px;
+	transform: translateY(80%);
+    }
+	.discriptionC {
+	float: right;
+	translate: 350px 450px; 
+	align-items: center;
+	justify-items: center;
+	color: #DED3E4;
+	}
+	main section {
+	  text-align: center;
+	  margin: auto;
+      justify-content: center;	  
+	  align-items: center;
+	}
+	
+    footer {
+      background-color: #222;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 0;
+	  color: white;
+    }
+  </style>
+</head>
+<body onload="view()">
+  <header>
+    <h1>BIG Data</h1>
+    <nav>
+      <ul>
+        <li><a href="BigData2-About.html">About</a></li>
+        <li><a href="BigData2-Contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="Home">
+	  <br>
+     <a href="BigData2-About.html"><img src="Abutton.jpg" id="buttonA"></a>
+	 <div class="discriptionA"><h1>Information</h1></div>
+	 <a href="BigData2-Contact.html"><img src="Cbutton.png" id="buttonC"></a>
+	 <div class="discriptionC"><h1>Services</h1></div>
+	 </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Big Data Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
